@@ -5,9 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addBooks } from "../Store/bookSlice";
 
 const Body = () => {
-  const { books, search } = useSelector((state) => state.booksReducer);
-
-  const booksToDisplay = search.searchParam ? search.books : books;
+  const { books } = useSelector((state) => state.booksReducer);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -17,7 +15,7 @@ const Body = () => {
   return (
     <>
       <div className="  flex flex-wrap mx-32">
-        {booksToDisplay.map((book) => {
+        {books.map((book) => {
           return <BookCard book={book} key={book.isbno} />;
         })}
       </div>

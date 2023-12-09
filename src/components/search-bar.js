@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import SearchIcon from "../assets/search-icon.svg";
-import { searchBooks } from "../Store/bookSlice";
 
 function SearchBar() {
   const [search, setSearch] = useState("");
 
-  const books = useSelector((state) => state.booksReducer);
-
   const dispatch = useDispatch();
+
+  const handleSearch = () => {};
 
   return (
     <>

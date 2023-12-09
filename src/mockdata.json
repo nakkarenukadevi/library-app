@@ -1,0 +1,85 @@
+{
+  "books": [
+    {
+      "name": "aghora-1",
+      "isbno": "1",
+      "bookcategory": "spiritual",
+      "rowno": "1",
+      "cost": "200",
+      "availability": "yes",
+      "bookcount": "1",
+      "image": "E:Renuka_workplaceFlat-world\flat-worldsrcassets\book1.jpg"
+    },
+    {
+      "name": "aghora-2",
+      "isbno": "2",
+      "bookcategory": "spiritual",
+      "rowno": "1",
+      "cost": "200",
+      "availability": "yes",
+      "bookcount": "1",
+      "image": ""
+    },
+    {
+      "name": "amarachithrakatha",
+      "isbno": "3",
+      "bookcategory": "history",
+      "rowno": "1",
+      "cost": "200",
+      "availability": "yes",
+      "bookcount": "1",
+      "image": ""
+    },
+    {
+      "name": "kasimajililu",
+      "isbno": "4",
+      "bookcategory": "maythology",
+      "rowno": "1",
+      "cost": "230",
+      "availability": "yes",
+      "bookcount": "1",
+      "image": ""
+    },
+    {
+      "name": "ramayan",
+      "isbno": "5",
+      "bookcategory": "spiritual",
+      "rowno": "1",
+      "cost": "300",
+      "availability": "yes",
+      "bookcount": "1",
+      "image": ""
+    },
+    {
+      "name": "bhagvatham",
+      "isbno": "6",
+      "bookcategory": "spiritual",
+      "rowno": "1",
+      "cost": "290",
+      "availability": "yes",
+      "bookcount": "1",
+
+      "image": ""
+    },
+    {
+      "name": "vikarmabethalakathalu",
+      "isbno": "7",
+      "bookcategory": "spiritual",
+      "rowno": "1",
+      "cost": "250",
+      "availability": "yes",
+      "bookcount": "1",
+      "image": ""
+    },
+    {
+      "name": "jwaladeewpam",
+      "isbno": "8",
+      "bookcategory": "spiritual",
+      "rowno": "1",
+      "cost": "400",
+      "availability": "yes",
+      "bookcount": "1",
+      "image": ""
+    }
+  ]
+}
